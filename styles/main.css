@@ -168,6 +168,46 @@ footer {
   font-weight: 500;
 }
 
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.whatsapp-button img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Efecto al pasar el mouse (solo en desktop) */
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+/* Mobile friendly */
+@media (max-width: 768px) {
+  .whatsapp-button {
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .whatsapp-button img {
+    width: 24px;
+    height: 24px;
+  }
+}
 
 
 /* Responsive */
