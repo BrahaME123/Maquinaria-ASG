@@ -98,11 +98,17 @@ h1, h2, h3 {
   justify-content: space-between;
 }
 
-.catalogo-header {
+.catalogo-header { 
   text-align: center;
-  padding: 1.5rem;
+  padding: 3rem;
   max-width: 700px;
-  margin: 0 auto;
+  margin: 15px auto;
+}
+
+.catalogo-header span{
+  color: var(--blanco);
+
+  background-color: var(--naranja);
 }
 
 .catalogo-header h2 {
@@ -150,10 +156,12 @@ h1, h2, h3 {
 
 .card-text p {
   font-size: 0.95rem;
-  
+  padding: 1rem;
   color: var(--negro);
 
 }
+
+
 
 footer {
   display: flex;
