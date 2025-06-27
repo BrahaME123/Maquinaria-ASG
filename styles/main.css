@@ -121,10 +121,14 @@ h1, h2, h3 {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 30px;
+  height: 50px;
   background-color: #111;
-  color: #777;
+  color: var(--blanco);
 }
 
 .nosotros {
@@ -272,7 +276,19 @@ footer {
   transform: translateY(0);
 }
 
-/* Mobile responsive */
+.mapa p{
+  padding: 15px;
+  margin: 5px;
+  font-weight: 700;
+}
+
+.over{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @media (max-width: 600px) {
   .contacto h2, .contacto h3 {
     font-size: 1.5rem;
