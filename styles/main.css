@@ -69,12 +69,15 @@ h1, h2, h3 {
 .catalogo {
   padding: 60px 20px;
   text-align: center;
+  background-color: var(--negro);
 }
 
 .catalogo h2 {
-  font-size: 2rem;
+  font-size: 45px;
   margin-bottom: 40px;
   color: var(--blanco);
+  background-color: var(--naranja);
+  width: 100%;
 }
 
 .cards-container {
@@ -86,7 +89,7 @@ h1, h2, h3 {
 }
 
 .card {
-  background-color: #111;
+  background-color: var(--blanco);
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -94,6 +97,36 @@ h1, h2, h3 {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.catalogo-header {
+  text-align: center;
+  padding: 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.catalogo-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.catalogo-header p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.catalogo-header .cta {
+  color: #ea4d01;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
 
 .card:hover {
   transform: translateY(-5px);
@@ -107,7 +140,7 @@ h1, h2, h3 {
 }
 
 .card-text {
-  padding: 20px;
+  padding: 40px;
 }
 
 .card-text h3 {
@@ -117,7 +150,9 @@ h1, h2, h3 {
 
 .card-text p {
   font-size: 0.95rem;
-  color: #ddd;
+  
+  color: var(--negro);
+
 }
 
 footer {
